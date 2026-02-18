@@ -1,3 +1,33 @@
-body{
-  font-size: 20px;
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior:smooth;
+  scroll-padding-top: 62px;
+}
+body {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  height: 62px;
+}
+h3 a {
+  color: white;
+}
+div {
+  height: 100vh;
+}
+.sec-1 {
+  padding-top: 62px;
+}
+.sec-2 {
+  background-color: #eee;
 }
